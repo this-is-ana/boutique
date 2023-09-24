@@ -1,0 +1,83 @@
+form {
+    margin-top: 25px;
+	margin-right: 20%;
+}
+
+input[type=text], input[type=email] {
+	padding: 7px;
+    width: 100%;
+}
+
+input[type=submit] {
+	margin-top: 20px;
+	padding: 5px;
+	width: 100px;
+}
+
+input[type=checkbox] {
+	margin: 10px 0 30px 0;
+}
+
+.input-wrapper {
+    margin-top: 40px;
+}
+
+.input-wrapper + .input-wrapper {
+    margin-top: 25px;
+}
+
+.smallInput {
+	margin-top: 20px;
+	max-width: 40px;
+}
+
+.required:after {
+	color: #e32;
+    content: ' *';
+    display: inline;
+}
+
+/* Carte de crédit */
+.infoCarte {
+	border-top: 1px solid  #c0c0c0;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+/*Select pour numéros d'expiration*/
+.expiration select {
+	margin: 10px;
+	margin-bottom: -10px;
+    min-width: 110px;
+    padding: 5px 3px;
+	text-align-last: center;
+	width: 20%;
+}
+
+/*Code de sécurité*/
+.securite {
+	margin-bottom: 20px;
+}
+
+/* Erreurs */
+.error-message {
+   color: red;
+   font-size: 18px;
+}
+
+.error {
+    border-color: red;
+}
+
+/* Thank */
+.thank {
+    opacity: 1;
+    margin-top: 50px;
+    transform: translateY(0);
+    transition: transform .3s ease-out;
+}
+
+.thank--hidden {
+    opacity: 0;
+    transform: translateY(50px);
+}
